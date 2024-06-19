@@ -1,0 +1,14 @@
+@import '@fontsource/poppins/index.css';
+
+body{
+    font-family: 'Poppins';
+    
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    background-color: white;
+}
