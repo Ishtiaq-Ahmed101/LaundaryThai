@@ -1,12 +1,10 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import {BrowserRouter, Route, Routes } from 'react-router-dom'
-import Menue from './Menue'
+import Hero from '../components/Hero'
 
 const Home = () => {
   return (
     <div className='w-full'>
-      Home
+      <Hero/>
        
     </div>
   )
