@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className='max-w-full flex flex-col'>
-    <div className='max-w-full flex flex-row justify-between text-black mt-5px border border-white border-b-cyan-400 py-5 px-2 '>
+    <div className='max-w-full flex flex-row justify-between text-textColorPrimary mt-5px border border-white border-b-cyan-400 py-5 px-2 '>
         <div className='flex flex-col justify-center'>
         <div className=' flex flex-row gap-4'>
             <a className=' hover:text-cyan-400 transition-all hover:border-b-cyan-400 hover:border hover:border-white' href={'/'}>Pricing</a>
@@ -36,7 +36,7 @@ const Navbar = () => {
         </div>
         </div>
     </div>
-    <div className=' text-black transition-color flex-row justify-between md:mt-6 hidden md:flex px-2 gap-4 '>
+    <div className=' text-textColorPrimary transition-color flex-row justify-between md:mt-6 hidden md:flex px-2 gap-4 '>
         <a className=' hover:text-cyan-400 transition-all hover:border-b-cyan-400 hover:border hover:border-white' href="/">Wash & Fold</a>
         <a className=' hover:text-cyan-400 transition-all hover:border-b-cyan-400 hover:border hover:border-white' href="/">Shoe Cleaning</a>
         <a className=' hover:text-cyan-400 transition-all hover:border-b-cyan-400 hover:border hover:border-white' href="/">Ironing Service</a>
@@ -44,7 +44,7 @@ const Navbar = () => {
         <a className=' hover:text-cyan-400 transition-all hover:border-b-cyan-400 hover:border hover:border-white' href="/">My Laundry Bag</a>
         <a className=' hover:text-cyan-400 transition-all hover:border-b-cyan-400 hover:border hover:border-white' href="/">Beverages</a>
     </div>
-    <div className='md:hidden flex flex-row justify-between text-black mt-5'>
+    <div className='md:hidden flex flex-row justify-between text-textColorPrimary mt-5'>
         {currentUrl == '/' ? (
             <a className='self-center' href="/menue" ><RxHamburgerMenu className='text-2xl'/></a>
         ):(

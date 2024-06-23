@@ -18,7 +18,7 @@ import Hero_mobile_bev_en from '../assets/Hero_mobile_bev_en.jpg'
 import Hero_mobile_bed_en from '../assets/Hero_mobile_bed_en.jpg'
 import Hero_mobile_bag_en from '../assets/Hero_mobile_bag_en.jpg'
 
-let images = ['']
+
 const imagesBig = [Hero_shoe_en, Hero_bag_en, Hero_bedding_en, Hero_bev_en, Hero_iron_en, Hero_suit_en, Hero_wash_en]
 const imagesSmall = [
   Hero_mobile_suit_en,Hero_mobile_shoe_en,Hero_mobile_iron_en,Hero_mobile_bev_en,Hero_mobile_bed_en,Hero_mobile_bag_en,Hero_mobile_wash_en,
@@ -43,7 +43,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="md:my-10 w-full my-5 flex justify-center  ">
+      <div className="md:my-12 w-full my-6 flex justify-center  ">
         <img className='rounded-md bg-cover ' src={img} alt="" />
       </div>
     </>
