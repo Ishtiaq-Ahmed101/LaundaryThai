@@ -16,6 +16,8 @@ export default {
         col_lightPurple : '#585f87',
         col_lightPink : '#d998fd',
         col_grayWhite : '#eff0f6',
+        col_lightOrange : "#655e85",
+        col_blueShade: "#f7f8ff",
 
       },
       fontFamily: {
@@ -24,6 +26,6 @@ export default {
     },
   },
   plugins: [
-    require('daisyui'),
+    
   ],
 }

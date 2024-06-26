@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import React, { useState } from 'react'
 
-const currentUrl = location.pathname + location.search;
+
 import logoml from '../assets/logoml.svg'
 import { CiLogin } from "react-icons/ci";
 import { CiShoppingCart } from "react-icons/ci";
