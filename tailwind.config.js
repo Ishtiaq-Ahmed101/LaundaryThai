@@ -32,6 +32,7 @@ module.exports = {
         col_grayWhite : '#eff0f6',
         col_lightOrange : "#655e85",
         col_blueShade: "#f7f8ff",
+        col_blueDim:"#e2f6ff",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

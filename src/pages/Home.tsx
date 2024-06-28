@@ -1,4 +1,5 @@
 
+import Inovations from '@/components/Inovations'
 import Faqs from '../components/Faqs'
 import Hero from '../components/Hero'
 import LaundaryServices from '../components/LaundaryServices'
@@ -13,6 +14,7 @@ const Home = () => {
       <TransportServices/>
       <Welcome_Sawasdee/>
       <Faqs/>
+      <Inovations/>
 
        
     </div>
